@@ -1,0 +1,46 @@
+body {
+	background: url('img/background.png') 0 0;
+	font-family: PT Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #6F6F6F;
+}
+body > .container {
+	background: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 2px solid #660000;
+	border-radius: 5px;
+}
+body > .container h2 {
+	color: #660000;
+	margin: 60px 0 40px 0;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+body .container p {
+	font-size: 1.4em;
+	margin: 0 0 20px 0;
+}
+h3 {
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	margin-top: 40px;
+}
+body .container .tres-boxes {
+	border-top: 1px solid #DDD;
+	margin: 20px;
+}
+body .container .tres-boxes p {
+	font-size: 13px;
+}
+body .container .footer {
+	background: linear-gradient(to bottom,rgba(15,15,15,1) 0%,rgba(34,34,34,1) 27%);
+	border-top: 15px solid #660000;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: #999;
+	padding: 0 40px 20px 40px;
+}
+body .container .footer p {
+	font-size: 13px;
+}
